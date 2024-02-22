@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
-# prints a string 10 times using for loop
+# The above line is a shebang, it tells the system to execute this script using bash.
 
+# This for loop runs from i=1 to i=10, incrementing i by 1 each time.
 for ((i = 1; i <= 10; i++)); do
+  # Inside the loop, echo command prints "Best School" followed by a newline.
   echo "Best School"
 done
