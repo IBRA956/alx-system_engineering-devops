@@ -1,9 +1,14 @@
 #!/usr/bin/env bash
-# Displays "To infinity and beyond" indefinitely with
-#+ a sleep 2 in between each iteration.
+# The shebang line specifies the path to the Bash interpreter.
 
+# The script starts the loop here
 while true
 do
+  # Inside the loop, it prints the phrase "To infinity and beyond"
   echo "To infinity and beyond"
+  
+  # Then it sleeps for 2 seconds
   sleep 2
 done
+# The loop repeats indefinitely because the condition 'true' always evaluates to true.
+
