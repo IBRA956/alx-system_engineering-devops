@@ -1,5 +1,13 @@
 #!/usr/bin/env bash
-# list all my currently running processes
+# List all currently running processes
+# Source: https://linuxize.com/post/ps-command-in-linux/
 
-# source: https://linuxize.com/post/ps-command-in-linux/
+# Display a header
+echo "Listing all currently running processes:"
+
+# Use ps command to list processes with detailed information
 ps -auxf
+
+# You can also redirect the output to a file if desired:
+# ps -auxf > processes.txt
+
